@@ -82,3 +82,10 @@ deploy:
  repository: https://github.com/zfy-zhang/zfy-zhang.github.io.git
  branch: master
  message: hexo deploy
+
+
+ search:
+   path: search.xml
+   field: post
+   format: html
+   limit: 10000
